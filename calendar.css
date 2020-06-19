@@ -3,11 +3,19 @@ This CSS file has been created for debugging purposes. Please contribute to a be
 Attribution 4.0 international (cc by 4.0)(https://creativecommons.org/licenses/by/4.0/). 
 This work is free to use but you MUST INCLUDE ATTRIBUTION (Michael Providenti and collaborators who will be named in subsequent versions). if you would like to improve this application, join us on github.
 */
-.calendar-box table.standard {
-	width: 50%;
-}
-.calendar-box table {
-	width: 90%;
+
+@media screen and (min-width: 800px) {
+	.calendar-box table.standard {
+		width: 50%;
+	}
+	.calendar-box table {
+		width: 90%;
+	}
+}	
+@media screen and (max-width: 800px) {
+	.calendar-box table.standard {
+		width: 99%;
+	}
 }
 h2 {border-top: 3px solid black;}
 
