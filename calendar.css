@@ -1,0 +1,159 @@
+/*
+This CSS file has been created for debugging purposes. Please contribute to a better design!
+Attribution 4.0 international (cc by 4.0)(https://creativecommons.org/licenses/by/4.0/). 
+This work is free to use but you MUST INCLUDE ATTRIBUTION (Michael Providenti and collaborators who will be named in subsequent versions). if you would like to improve this application, join us on github.
+*/
+.calendar-box table.standard {
+	width: 50%;
+}
+.calendar-box table {
+	width: 90%;
+}
+h2 {border-top: 3px solid black;}
+
+table {
+	border: 5px solid black;
+	margin: 0 1em 1em 10px;
+	width: 100%;
+}
+
+button {margin:0 10px;}
+caption {
+	background-color: gray;
+	color: white;
+}
+
+tr {
+	border: 1px solid green;
+}
+td, th {vertical-align: text-top;}
+td {
+	border: 1px solid orange;
+	width: 14%;
+}
+
+.closed {
+	background: #757575;
+    color: white;
+	background-image: url(images/cell-closed.svg);
+}
+
+.reduced {
+	background: #fff799;
+	background-image: url(images/cell-reduced.svg);
+}
+
+.extended {
+	background: #c4df9b;
+	background-image: url(images/cell-extended.svg);
+}
+.open {
+    border: 2px solid green;
+}
+.reduced,
+.closed,
+.extended {
+	background-position: right 0px;
+	background-repeat: no-repeat;
+}
+
+.today {
+	border: 3px solid red;
+}
+
+.visually-hidden,
+.standard .exception {
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+.past {
+	color: silver;
+	font-style: italic;
+}
+td.past {
+    opacity: .5;
+}
+
+button.delete_month, 
+table.delete_month {
+	border: 5px solid silver;
+}
+
+button.delete_month,
+.delete_month caption {
+	background-color: silver;
+}
+
+button.delete_month {
+    color:gray; font-style:italic;
+}
+.delete_month td {
+	border: 1px solid silver;
+}
+
+.xdelete_month {
+	display: none;
+}
+
+.date-box.today {
+	background: #eb0000;
+	color: white;
+	border-radius: 15px;
+	padding: 0;
+}
+
+#upcoming_hours_type ul,
+#hours_type ul,
+#exceptions ul {
+	width: 50%;
+	list-style: none;
+	padding-left: 0;
+	margin: auto 1em;
+}
+
+#upcoming_hours_type li,
+#hours_type li,
+#exceptions li {
+	display: flex;
+}
+
+#upcoming_hours_type li .space::before,
+#hours_type li .space::before,
+#exceptions li .space::before {
+	content: '. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ';
+}
+
+#upcoming_hours_type li .space,
+#hours_type li .space,
+#exceptions li .space {
+	flex: 1 1 auto;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: clip;
+	color: silver;
+	font-size: 60%;
+}
+
+#upcoming_hours_type li span:first-child,
+#hours_type li span:first-child,
+#exceptions li span:first-child,
+#upcoming_hours_type li span:last-child,
+#hours_type li span:last-child,
+#exceptions li span:last-child {
+	flex: 0 0 auto;
+}
+
+.space {
+	margin-top: auto;
+}
+/*
+.calendar-box table.split-start, .calendar-box table.delete-month.split-start {border: 5px dashed green;}
+.calendar-box table.split-end, .calendar-box table.delete-month.split-end {border: 5px dashed red;}
+*/
+.hours-in-header {font-weight: normal; font-size: 80%;}

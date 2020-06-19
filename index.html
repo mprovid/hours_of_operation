@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <!-- attribution 4.0 international (cc by 4.0)(https://creativecommons.org/licenses/by/4.0/). this work is free to use but you must include attribution (Michael Providenti and collaborators who will be named here in subsequent versions). if you would like to improve this application, join us on github. -->
+		<title>Calendar Demo</title>
+		<meta charset="utf-8">
+		<meta name="description" content="Calendar Demo">
+		<meta name="author" content="Michael Providenti">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="calendar.js"></script>
+		<link rel="stylesheet" href="calendar.css">
+	</head>
+	<body>
+        <header>
+			<h1>Hours of Operation (Demo)</h1>
+        </header>
+        <aside>
+            <h2>Purpose</h2>
+            <p>This application is designed to provide multiple views of an organization's hours of operation. This application is to help make the exceptions to the regular hours easier for the user to understand and simpler for the web editor to maintain. Does your organization close or reduce hours on some holidays? Extend hours on some occasions? From a single JSON data set this application produces a list of regular hours and a list of exceptions by category. There is no set limit for how far in advance the regular hours and exceptions can be set. This application also produces calendar tables for months in a specified date range with the regular hours provided in the calendar header and exceptions indicated visually and as text in the calendar table cells. In the case of seasonal hours, months split where the season splits. Regular hours need to be in effect at least two (2) months since, as designed, a month can only split once -- any shorter span of time is an exception to regular hours.</p>
+            <p>At this stage of development, the javascript is not efficient and the CSS is written strictly for debugging purposes (for example, past calendar tables and exceptions in a list should be deleted, not grayed-out, and the current grayed-out style does not have adequate contrast for accessibility). This is a work in progress (both as proof of concept and prototype). Your collaboration is welcome. </p>
+        </aside>
+        <nav id="hours_app_nav">
+        </nav>
+
+        <main id="hours_app">
+            <div id="todays_hours"></div>
+            <div id="hours_type"></div>
+            <div id="upcoming_hours_type"></div>
+            <div id="exceptions"></div>
+            <div id="calendar"></div>
+        </main>
+        
+        <footer>
+            <div>
+                <p>M. Providenti (and collaborators...) &copy;2020</p>
+            </div>
+        </footer>
+	</body>
+</html>
