@@ -6,8 +6,7 @@
 			"terms_of_use": "attribution 4.0 international (cc by 4.0)(https://creativecommons.org/licenses/by/4.0/). this work is free to use but you must include attribution. if you would like to improve this application, join us on github.",
 			"days_of_week": "day values are as follows: Sun = 0, Mon = 1; Tue = 2; Wed = 3; Thur = 4; Fri = 5; Sat = 6",
             "regularHours_start_and_end": "a month can split once for regularHours. for shorter spans of time, use exception. there should not be a break between regularHours types. for example, if fall hours end on december 15 and spring hours start on january 10, use yyyy-12-31 and yyyy-01-01 for the start and stop dates respectively and use exceptions for the time in between.",
-			"beginDisplay": "this feature is not yet ready to use.",
-			"exceptions": "in this version exceptions are single dates - the ability to add date ranges will be added later."
+			"exceptions": "can be objects or arrays."
          }
       ],"showHours": [
          {
