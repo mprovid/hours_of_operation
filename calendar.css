@@ -11,6 +11,8 @@ This work is free to use but you MUST INCLUDE ATTRIBUTION (Michael Providenti an
 	.calendar-box table {
 		width: 90%;
 	}
+	#upcoming_hours_type ul,
+	#hours_type ul,
 	#exceptions ul {
 		width: 50%;
 	}
