@@ -10,16 +10,16 @@
          }
       ],"showHours": [
          {
-            "start": "2021-01-01",
-            "end": "2022-01-08"
+            "start": "2024-05-01",
+            "end": "2025-06-30"
          }
       ],
       "regularHours": [
          {
 	    "name": "Spring",
-            "beginDisplay": "2020-12-01",
-            "start": "2021-01-01",
-            "end": "2021-05-08",
+            "beginDisplay": "2024-05-01",
+            "start": "2024-01-01",
+            "end": "2024-05-08",
             "hours": [
                {
                   "day": 0,
@@ -46,9 +46,9 @@
          },
          {
 	    "name": "Summer",
-            "beginDisplay": "2021-04-15",
-            "start": "2021-05-09",
-            "end": "2021-08-15",
+            "beginDisplay": "2024-04-01",
+            "start": "2024-05-09",
+            "end": "2024-08-15",
             "hours": [
                {
                   "day": 0,
@@ -76,9 +76,9 @@
          },
          {
             "name": "Fall",
-            "beginDisplay": "2021-06-15",
-            "start": "2021-08-16",
-            "end": "2021-12-31",
+            "beginDisplay": "2024-06-15",
+            "start": "2024-08-16",
+            "end": "2024-12-31",
             "hours": [
                {
                   "day": 0,
@@ -108,134 +108,134 @@
          {
             "exceptions": [
                {
-                  "date": "2021-01-01",
+                  "date": "2024-01-01",
                   "type": "closed",
                   "message": "New Year's Day"
                },
                {
-                  "date": "2021-01-19",
+                  "date": "2024-01-19",
                   "type": "extended",
-                  "message": "Open 24 hours (extended test 1/19/2020)"
+                  "message": "Open 24 hours (extended test 1/19/2024)"
                },
                {
-                  "date": "2021-01-18",
+                  "date": "2024-01-15",
                   "type": "closed",
                   "message": "Martin Luther King Jr. Day"
                },
                {
-                  "date": "2021-02-01",
+                  "date": "2024-02-01",
                   "type": "extended",
-                  "message": "Open 24 hours (extended test 2/1/2021)"
+                  "message": "Open 24 hours (extended test 2/1/2024)"
                },
                {
-                  "date": "2021-03-01",
+                  "date": "2024-03-01",
                   "type": "extended",
-                  "message": "Open 24 hours (extended test 3/1/2021)"
+                  "message": "Open 24 hours (extended test 3/1/2024)"
                },
                {
                   "date": [
-                     "2021-03-08",
-                     "2021-03-12"
+                     "2024-03-08",
+                     "2024-03-12"
                   ],
                   "type": "reduced",
                   "message": "Spring Break 8-8"
                },
                {
-                  "date": "2021-04-04",
+                  "date": "2024-04-04",
                   "type": "closed",
-                  "message": "(closed test 4/04/2021)"
+                  "message": "(closed test 4/04/2024)"
                },
                {
-                  "date": "2021-05-31",
+                  "date": "2021-05-27",
                   "type": "closed",
                   "message": "Memorial Day"
                },
                {
-                  "date": "2021-06-03",
+                  "date": "2024-06-03",
                   "type": "reduced",
-                  "message": "12pm - 2pm (reduced test 6/3/2021)"
+                  "message": "12pm - 2pm (reduced test 6/3/2024)"
                },
                {
-                  "date": "2021-06-27",
+                  "date": "2024-06-27",
                   "type": "open",
-                  "message": "12pm - 2pm (open test 6/27/2021)"
+                  "message": "12pm - 2pm (open test 6/27/2024)"
                },
                {
-                  "date": "2021-07-05",
+                  "date": "2024-06-19",
                   "type": "closed",
-                  "message": "Independence Day Observed"
+                  "message": "Juneteenth"
                },
                {
-                  "date": "2021-07-04",
+                  "date": "2024-07-04",
                   "type": "closed",
                   "message": "Independence Day"
                },
                {
-                  "date": "2021-08-02",
+                  "date": "2024-08-02",
                   "type": "reduced",
-                  "message": "12pm - 2pm (reduced test 8/2/2021)"
+                  "message": "12pm - 2pm (reduced test 8/2/2024)"
                },
                {
-                  "date": "2021-09-06",
+                  "date": "2024-09-02",
                   "type": "closed",
                   "message": "Labor Day"
                },
                {
-                  "date": "2021-10-01",
+                  "date": "2024-10-01",
                   "type": "",
                   "message": ""
                },
                {
-                  "date": "2021-11-25",
+                  "date": "2024-11-28",
                   "type": "closed",
                   "message": "Thanksgiving Day"
                },
                {
                   "date": [
-                     "2021-12-13",
-                     "2021-12-17"
+                     "2024-12-13",
+                     "2024-12-17"
                   ],
                   "type": "extended",
                   "message": "Exam Week"
                },
                {
-                  "date": "2021-12-25",
+                  "date": "2024-12-25",
                   "type": "closed",
                   "message": "Christmas Day"
                },
                {
                   "date": [
-                     "2021-12-26",
-                     "2021-12-31"
+                     "2024-12-26",
+                     "2024-12-31"
                   ],
                   "type": "closed",
                   "message": "Winter Break"
                },
                {
-                  "date": "2022-01-01",
+                  "date": "2025-01-01",
                   "type": "closed",
                   "message": "New Year's Day"
                },
                {
                   "date": [
-                     "2022-01-02",
-                     "2022-01-09"
+                     "2025-01-02",
+                     "2025-01-09"
                   ],
                   "type": "reduced",
                   "message": "Intercession 8-8"
                },
                {
-                  "date": "2022-03-01",
+                  "date": "2025-03-01",
                   "type": "",
                   "message": ""
                },
                {
-                  "date": "2022-04-01",
+                  "date": "2025-04-01",
                   "type": "",
                   "message": ""
                },
                {
-                  "date": "2022-05-01",
+                  "date": "2025-05-01",
                   "type": "",
                   "message": ""
                }
