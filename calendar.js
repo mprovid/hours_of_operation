@@ -505,7 +505,7 @@ $(function () {
 				var reArrayLength = cal[0].actualHours[0].exceptions[i5].date.length - 1;
 				var reArrayFirst = cal[0].actualHours[0].exceptions[i5].date[0];
 				var reArrayLast = cal[0].actualHours[0].exceptions[i5].date[reArrayLength];
-				if ((reArrayFirst >= calJsonStart1 && reArrayFirst <= calJsonEnd1) || (reArrayLAst >= calJsonStart1 && reArrayLast <= calJsonEnd1)) {
+				if ((reArrayFirst >= calJsonStart1 && reArrayFirst <= calJsonEnd1) || (reArrayLast >= calJsonStart1 && reArrayLast <= calJsonEnd1)) {
 					var [exceptionYearStart, exceptionMonth1Start, exceptionDateStart] = reArrayFirst.split("-");
 					var [exceptionYearEnd, exceptionMonth1End, exceptionDateEnd] = reArrayLast.split("-");
 
