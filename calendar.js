@@ -3,7 +3,7 @@ $(function () {
 	$.getJSON("calendar.json", function (cal) {
 		console.log(cal);
 
-		// Today's DATE yyyy-mm-dd in MULTIPLE FORMATS
+		// Today's DATE yyyy-mm-dd in MULTIPLE FORMATS 
 		var today = new Date();
 		var dd = today.getDate();
 		var mmJs = today.getMonth();
