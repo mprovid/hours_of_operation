@@ -10,20 +10,20 @@
          }
       ],"showHours": [
          {
-            "start": "2024-05-01",
-            "end": "2025-06-30"
+            "start": "2024-11-01",
+            "end": "2026-01-31"
          }
       ],
       "regularHours": [
          {
 	    "name": "Spring",
-            "beginDisplay": "2024-05-01",
-            "start": "2024-01-01",
-            "end": "2024-05-08",
+            "beginDisplay": "2024-11-01",
+            "start": "2025-01-01",
+            "end": "2025-05-08",
             "hours": [
                {
                   "day": 0,
-                  "hours": "12:00pm - 1:00am (Su)"
+                  "hours": "11:30am - 7:00pm (Su)"
                },
                {
                   "day": [
@@ -32,27 +32,27 @@
 		     3,
 		     4
                   ],
-                  "hours": "7:30am - 1:00am (M-Th)"
+                  "hours": "7:30am - 10:30pm (M-Th)"
                },
                {
                   "day": 5,
-                  "hours": "7:30am - 7:30pm (Fr)"
+                  "hours": "7:30am - 5:00pm (Fr)"
                },
                {
                   "day": 6,
-                  "hours": "11:00am - 5:00pm (Sa)"
+                  "hours": "9:30am - 5:00pm (Sa)"
                }
             ]
          },
          {
 	    "name": "Summer",
-            "beginDisplay": "2024-04-01",
-            "start": "2024-05-09",
-            "end": "2024-08-15",
+            "beginDisplay": "2025-03-01",
+            "start": "2025-05-09",
+            "end": "2025-08-15",
             "hours": [
                {
                   "day": 0,
-                  "hours": "Closed (S)"
+                  "hours": "Closed (Su)"
                },
                {
                   "day": [
@@ -62,27 +62,27 @@
                      4
 					 
                   ],
-                  "hours": "8:00am - 8:00pm (M-Th)"
+                  "hours": "8:00am - 5:00pm (M-Th)"
                },
                {
                   "day": 5,
-                  "hours": "8:00am - 5:30pm (F)"
+                  "hours": "8:00am - 5:00pm (F)"
                },
                {
                   "day": 6,
-                  "hours": "11:00am - 5:00pm (S)"
+                  "hours": "Closed (S)"
                }
             ]
          },
          {
             "name": "Fall",
-            "beginDisplay": "2024-06-15",
-            "start": "2024-08-16",
-            "end": "2024-12-31",
+            "beginDisplay": "2025-06-15",
+            "start": "2025-08-16",
+            "end": "2025-12-31",
             "hours": [
                {
                   "day": 0,
-                  "hours": "12:00pm - 1:00am (Su)"
+                  "hours": "11:30am - 7:00pm (Su)"
                },
                {
                   "day": [
@@ -91,15 +91,15 @@
 		     3,
 		     4
                   ],
-                  "hours": "7:30am - 1:00am (Mo-Th)"
+                  "hours": "7:30am - 10:30pm (Mo-Th)"
                },
                {
                   "day": 5,
-                  "hours": "7:30am - 7:30pm (Fr)"
+                  "hours": "7:30am - 7:00pm (Fr)"
                },
                {
                   "day": 6,
-                  "hours": "11:00am - 5:00pm (Sa)"
+                  "hours": "9:30am - 5:00pm (Sa)"
                }
             ]
          }
@@ -186,9 +186,12 @@
                   "message": ""
                },
                {
-                  "date": "2024-11-28",
+                  "date": [
+                     "2024-11-28",
+                     "2024-11-30"
+                  ],
                   "type": "closed",
-                  "message": "Thanksgiving Day"
+                  "message": "Thanksgiving"
                },
                {
                   "date": [
@@ -197,6 +200,14 @@
                   ],
                   "type": "extended",
                   "message": "Exam Week"
+               },
+               {
+                  "date": [
+			  "2024-12-19",
+		  	"2024-12-24"
+		  ],
+                  "type": "closed",
+                  "message": "Winter Break"
                },
                {
                   "date": "2024-12-25",
@@ -219,26 +230,121 @@
                {
                   "date": [
                      "2025-01-02",
-                     "2025-01-09"
+                     "2025-01-05"
                   ],
+                  "type": "closed",
+                  "message": "Winter Break"
+               },
+               {
+                  "date": "2025-01-20",
+                  "type": "closed",
+                  "message": "Martin Luther King Jr. Day"
+               },
+               {
+                  "date": [
+			  "2025-03-10",
+			  "2025-03-15"
+		  ],
                   "type": "reduced",
-                  "message": "Intercession 8-8"
+                  "message": "Spring Break"
                },
                {
-                  "date": "2025-03-01",
+                  "date": [
+			  "2025-05-03",
+			  "2025-05-09"
+		  ],
+                  "type": "extended",
+                  "message": "Exam Week"
+               },
+               {
+                  "date": "2025-05-26",
+                  "type": "closed",
+                  "message": "Memorial Day"
+               },
+               {
+                  "date": "2025-06-19",
+                  "type": "closed",
+                  "message": "Juneteenth"
+               },
+               {
+                  "date": "2025-07-04",
+                  "type": "closed",
+                  "message": "Independence Day"
+               },
+               {
+                  "date": "2025-08-01",
                   "type": "",
                   "message": ""
                },
                {
-                  "date": "2025-04-01",
-                  "type": "",
-                  "message": ""
+                  "date": "2025-09-01",
+                  "type": "closed",
+                  "message": "Labor Day"
                },
                {
-                  "date": "2025-05-01",
-                  "type": "",
-                  "message": ""
+                  "date": [
+			  "2025-10-13",
+			  "2025-10-14"
+		  ],
+                  "type": "reduced",
+                  "message": "Fall Break"
+               },
+               {
+                  "date": "2025-11-04",
+                  "type": "closed",
+                  "message": "Election Day"
+               },
+               {
+                  "date": [
+			  "2025-11-26",
+			  "2025-11-29"
+		  ],
+                  "type": "closed",
+                  "message": "Thanksgiving"
+               },
+               {
+                  "date": [
+			  "2025-12-06",
+			  "2025-12-12"
+		  ],
+                  "type": "extended",
+                  "message": "Exam Week"
+               },
+               {
+                  "date": [
+			  "2025-12-20",
+			  "2025-12-24"
+		  ],
+                  "type": "closed",
+                  "message": "Winter Break"
+               },
+               {
+                  "date": "2025-12-25",
+                  "type": "closed",
+                  "message": "Christmas Day"
+               },
+               {
+                  "date": [
+			  "2025-12-26",
+			  "2025-12-31"
+		  ],
+                  "type": "closed",
+                  "message": "Winter Break"
+               },
+               {
+                  "date": "2026-01-01",
+                  "type": "closed",
+                  "message": "New Year's Day"
+               },
+               {
+                  "date": [
+			  "2026-01-02",
+			  "2026-01-04"
+		  ]
+                  "type": "closed",
+                  "message": "Winter Break"
                }
+		    
             ]
          }
       ]
