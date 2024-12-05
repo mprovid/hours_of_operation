@@ -343,6 +343,11 @@
 		  ],
                   "type": "closed",
                   "message": "Winter Break"
+               },
+               {
+                  "date": "2026-01-20",
+                  "type": "closed",
+                  "message": "Martin Luther King Jr. Day"
                }
 		    
             ]
