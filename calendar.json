@@ -154,7 +154,7 @@
                      "2026-12-21",
                      "2026-12-31"
                   ],
-                  "type": "reduced",
+                  "type": "closed",
                   "message": "Winter Holiday"
                },
                {
