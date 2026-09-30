@@ -1,5 +1,5 @@
 # hours_of_operation
-Manage hours of operation from JSON and display them in multiple ways.
+Manage hours of operation from JSON and display them in multiple ways. You can see the options here: https://mprovid.github.io/hours_of_operation/
 
 ## The JavaScript
 This was created a function at a time as a proof-of-concept and, as such, the JS is not currently efficient. Fixing the JS is on this to-do list.
